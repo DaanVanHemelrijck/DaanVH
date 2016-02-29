@@ -1,0 +1,19 @@
+.wit{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    float: left;
+        
+
+}
+
+.zwart{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+   float: left;
+
+}
+body{
+width: 400px;
+}
