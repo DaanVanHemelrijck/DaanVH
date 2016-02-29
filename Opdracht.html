@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="beschrijving van de webpagina">
+    <meta name="keywords" content="trefwoorden, gescheiden, door, komma's">
+    <meta name="viewport" content="width=device-width, height=device-height" />
+    <title>Titel van de webpagina</title>
+    <link rel="stylesheet" href="Opdracht.css">
+
+</head>
+
+<body>
+
+
+
+    <script type = "text/javascript">
+    "use strict";
+    var rijen;
+    var kolommen;
+
+    for (kolommen = 1; kolommen <= 8; kolommen = kolommen + 1) {
+        if (kolommen % 2 === 0) {
+            for (rijen = 1; rijen <= 8; rijen++) {
+                if (rijen % 2 === 0) {
+                    document.write('<div class="zwart"></div>');
+                } else {
+                    document.write('<div class="wit"></div>');
+                }
+            }
+
+        } else {
+            for (rijen = 1; rijen <= 8; rijen++) {
+                if (rijen % 2 === 0) {
+                    document.write('<div class="wit"></div>');
+                } else {
+                    document.write('<div class="zwart"></div>');
+                }
+            }
+        }
+    } 
+</script>
+
+
+</body>
+
+</html>
